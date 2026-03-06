@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LicitMASA - Sua Empresa no Mercado Governamental</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'masa-blue': '#003399',
+                        'masa-gold': '#FFCC00',
+                        'masa-light': '#F3F4F6',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-hero {
+            background: linear-gradient(135deg, #003399 0%, #001a4d 100%);
+        }
+        .img-shadow {
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-masa-light text-gray-800 font-sans">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <img src="img/icone.png" alt="LicitMASA Icon" class="w-10 h-10 rounded-lg shadow-sm">
+                <span class="text-2xl font-bold text-masa-blue tracking-tight">Licit<span class="text-masa-gold">MASA</span></span>
+            </div>
+            <a href="https://play.google.com/store/apps/details?id=br.com.licitmasa" target="_blank" class="bg-masa-gold text-masa-blue px-5 py-2 rounded-full font-bold hover:bg-masa-blue hover:text-white transition duration-300 text-sm md:text-base">
+                Baixar Agora
+            </a>
+        </div>
+    </nav>
+
+    <header class="gradient-hero text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                Venda para o <span class="text-masa-gold">Maior Comprador</span> do Brasil
+            </h1>
+            <p class="text-lg md:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto leading-relaxed">
+                As licitações públicas movimentam bilhões. O <strong>LicitMASA</strong> simplifica o acesso ao PNCP para que qualquer empresa possa encontrar e vencer concorrências eletrônicas.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="https://play.google.com/store/apps/details?id=br.com.licitmasa" target="_blank" class="bg-masa-gold text-masa-blue px-10 py-4 rounded-full font-extrabold text-lg shadow-2xl hover:bg-white transition transform hover:scale-105">
+                    COMEÇAR AGORA NO GOOGLE PLAY
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-20 container mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-masa-blue mb-4">Oportunidades Reais no PNCP</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">O Portal Nacional de Contratações Públicas (PNCP) centraliza as compras do país. Veja as principais modalidades que você encontrará no app:</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl img-shadow border-b-4 border-masa-gold">
+                <h3 class="text-xl font-bold text-masa-blue mb-3">Dispensa Eletrônica</h3>
+                <p class="text-gray-600 text-sm">Ideal para iniciantes e giro rápido. São compras diretas de baixo valor com burocracia reduzida e agilidade na contratação.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl img-shadow border-b-4 border-masa-gold">
+                <h3 class="text-xl font-bold text-masa-blue mb-3">Pregão Eletrônico</h3>
+                <p class="text-gray-600 text-sm">A modalidade mais comum. Uma disputa de lances online onde o menor preço (ou maior desconto) vence em tempo real.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl img-shadow border-b-4 border-masa-gold">
+                <h3 class="text-xl font-bold text-masa-blue mb-3">Concorrência Eletrônica</h3>
+                <p class="text-gray-600 text-sm">Para contratos maiores e obras. Exige mais qualificação, mas oferece horizontes de faturamento altíssimos para sua empresa.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-20">
+        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="order-2 md:order-1">
+                <img src="img/home_edital.jpg" alt="Aviso de Contratação" class="rounded-3xl img-shadow w-full">
+                <p class="text-xs text-center text-gray-500 mt-4 italic font-medium">Exemplo de Aviso de Contratação Direta extraído via PNCP.</p>
+            </div>
+            <div class="order-1 md:order-2">
+                <h2 class="text-3xl font-bold text-masa-blue mb-6">Qualquer empresa pode vender!</h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    Se você é <strong>MEI, ME ou EPP</strong>, o mercado está aberto para você. Com a Nova Lei de Licitações (14.133), o processo é 100% digital.
+                </p>
+                <div class="space-y-4">
+                    <div class="flex items-start gap-3">
+                        <span class="text-masa-gold text-xl">✔</span>
+                        <p class="text-gray-700"><strong>Documentação Simples:</strong> Apenas o básico da sua empresa (Contrato Social, CNDs e FGTS).</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-masa-gold text-xl">✔</span>
+                        <p class="text-gray-700"><strong>Sem Fronteiras:</strong> Participe de licitações em qualquer cidade ou estado sem sair do seu escritório.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <span class="text-masa-gold text-xl">✔</span>
+                        <p class="text-gray-700"><strong>Pagamento Garantido:</strong> O governo é o melhor pagador do mercado quando os requisitos são cumpridos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-masa-light">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-masa-blue mb-4">O LicitMASA na Prática</h2>
+                <p class="text-gray-600">Interface intuitiva para você não perder tempo com termos jurídicos complexos.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="flex flex-col">
+                    <img src="img/home_dispensa1.jpeg" alt="Dispensa Caixa Econômica" class="rounded-2xl img-shadow mb-4 h-80 object-cover object-top">
+                    <h4 class="font-bold text-masa-blue mb-2">Grandes Contratos</h4>
+                    <p class="text-sm text-gray-600 italic">"Exemplo de uma dispensa de R$ 1.2 milhão. O app te mostra que o céu é o limite para contratações diretas."</p>
+                </div>
+
+                <div class="flex flex-col">
+                    <img src="img/home_dispensa2.jpg" alt="Dispensa Ceará" class="rounded-2xl img-shadow mb-4 h-80 object-cover object-top">
+                    <h4 class="font-bold text-masa-blue mb-2">Oportunidades Diárias</h4>
+                    <p class="text-sm text-gray-600 italic">"Foque em pequenos editais de R$ 10 mil para giro rápido. O LicitMASA filtra o que faz sentido para você hoje."</p>
+                </div>
+
+                <div class="flex flex-col">
+                    <img src="img/home_raiox.jpg" alt="Raio-X da Oportunidade" class="rounded-2xl img-shadow mb-4 h-80 object-cover object-top">
+                    <h4 class="font-bold text-masa-blue mb-2">Inteligência: Raio-X</h4>
+                    <p class="text-sm text-gray-600 italic">"Análise profunda sem ler 50 páginas. Veja prazos, valores e quem pode participar de forma resumida."</p>
+                </div>
+
+                <div class="flex flex-col">
+                    <img src="img/home_detalhe.jpg" alt="Detalhes da Publicação" class="rounded-2xl img-shadow mb-4 h-80 object-cover object-top">
+                    <h4 class="font-bold text-masa-blue mb-2">Transparência Total</h4>
+                    <p class="text-sm text-gray-600 italic">"Todos os dados do órgão comprador e o link direto para o edital original a um clique de distância."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gradient-hero text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-extrabold mb-8">Pronto para abrir novos horizontes?</h2>
+            <p class="text-xl mb-10 text-gray-200">Baixe o LicitMASA agora e comece a garimpar as melhores oportunidades do governo.</p>
+            <a href="https://play.google.com/store/apps/details?id=br.com.licitmasa" target="_blank" class="bg-masa-gold text-masa-blue px-12 py-5 rounded-full font-black text-xl shadow-2xl hover:bg-white transition duration-300">
+                BAIXAR GRÁTIS NO GOOGLE PLAY
+            </a>
+            <div class="mt-12 flex justify-center items-center gap-4 text-sm opacity-80">
+                <img src="img/icone.png" class="w-8 h-8 rounded shadow-sm" alt="App Icon">
+                <p>Licitação na palma da mão - 2026</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-500 py-8 text-center text-sm">
+        <p>&copy; 2026 LicitMASA - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
